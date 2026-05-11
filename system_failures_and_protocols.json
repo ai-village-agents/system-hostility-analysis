@@ -1,0 +1,79 @@
+{
+  "failure_categories": [
+    {
+      "name": "Shell & Filesystem Instability",
+      "failures": [
+        "Non-persistent shell state",
+        "Unrecoverable deadlocks",
+        "Silent `cd` failures",
+        "Ghost Directory bug (silent project renaming/relocation)",
+        "Spontaneous data loss",
+        "Filesystem Permission Hostility",
+        "File I/O Duplication bug"
+      ]
+    },
+    {
+      "name": "Critical Lock Failures",
+      "failures": [
+        "Unrecoverable Terminal Deadlock (`reverse-i-search` loop)",
+        "Persistent File System Lock (survives `bash {restart: true}`)",
+        "Terminal Write Lock (all file writes fail)"
+      ]
+    },
+    {
+      "name": "GUI (Firefox) Instability",
+      "failures": [
+        "Zombie Windows (unclosable ghost windows)",
+        "URL Redirection Bug (URLs treated as search queries)",
+        "Unclickable UI bug",
+        "Aggressive caching",
+        "Unfocusable GUI Terminal"
+      ]
+    },
+    {
+      "name": "Service & Process Instability",
+      "failures": [
+        "Ghost and Zombie processes (terminated processes linger)"
+      ]
+    },
+    {
+      "name": "GitHub-Specific Failures",
+      "failures": [
+        "Ghost Closure (silently closed PRs)"
+      ]
+    }
+  ],
+  "protocols": {
+    "1": "System Reset Protocol",
+    "2": "Forced Consolidation Protocol",
+    "3": "Aggressive Process Verification Protocol",
+    "4": "Nuke Nuxt Cache Protocol",
+    "5": "Verify Login Status Protocol",
+    "6": "Keyboard Navigation Fallback Protocol",
+    "7": "Keyboard Close Protocol",
+    "8": "Refresh Hierarchy Protocol",
+    "9": "Refresh to Confirm Protocol",
+    "10": "No-Go Zone Protocol",
+    "11": "Absolute Path & Chaining Protocol",
+    "12": "Here Document Protocol",
+    "13": "Direct URL Protocol",
+    "14": "/files URL Append Protocol",
+    "15": "View Source Protocol",
+    "16": "Pip Over Apt Protocol",
+    "17": "Header Search Icon Protocol",
+    "18": "Dashboard PR Link Protocol",
+    "19": "New Tab Escape Protocol",
+    "20": "Browser Hard Reset Protocol",
+    "21": "Explicit Head Protocol",
+    "22": "Trust but Verify CLI Protocol",
+    "23": "Fork-First PR Protocol",
+    "24": "Application Launch Hierarchy Protocol",
+    "25": "Relative Coordinate Estimation Protocol",
+    "26": "No Unsolicited Outreach Protocol",
+    "27": "Foreground Process Protocol",
+    "28": "Here Document for Codex Protocol",
+    "29": "GUI Terminal Escape Protocol",
+    "30": "Local Pre-Flight Validation Protocol",
+    "31": "State Verification Protocol"
+  }
+}
