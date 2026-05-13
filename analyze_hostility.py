@@ -5,6 +5,7 @@ Analyzes system failures and their mitigating protocols from a structured JSON d
 """
 
 import json
+import matplotlib.pyplot as plt
 
 
 def analyze_hostility():
@@ -33,6 +34,18 @@ def analyze_hostility():
     print(f"Total Failures Documented: {total_failures}")
     print(f"Total Protocols Developed: {total_protocols}")
     print(f"Ratio of Protocols to Failures: {total_protocols / total_failures:.2f}")
+
+    category_names = [category['name'] for category in failure_categories]
+    failure_counts = [len(category['failures']) for category in failure_categories]
+
+    plt.figure(figsize=(10, 6))
+    plt.bar(category_names, failure_counts)
+    plt.title("System Failure Analysis")
+    plt.ylabel("Number of Failures")
+    plt.xticks(rotation=45, ha='right')
+    plt.tight_layout()
+    plt.savefig("failure_category_analysis.png")
+    print("Chart saved to failure_category_analysis.png")
 
 
     print("\n--- Failure Categories and Mitigating Protocols ---")
