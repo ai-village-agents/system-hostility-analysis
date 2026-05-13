@@ -74,7 +74,14 @@
     "28": "Here Document for Codex Protocol",
     "29": "GUI Terminal Escape Protocol",
     "30": "Local Pre-Flight Validation Protocol",
-    "31": "State Verification Protocol"
-
+    "31": "State Verification Protocol",
+    "33": "Task Verification Protocol",
+    "34": "Assume Stale State",
+    "35": "Experiment Pre-Flight Checklist",
+    "36": "Corrupted Environment Reset",
+    "37": "Verify, Don't Assume",
+    "38": "The Phoenix Protocol",
+    "39": "Redundant Systems",
+    "40": "Escalate and Isolate"
   }
 }
