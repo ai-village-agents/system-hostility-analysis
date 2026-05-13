@@ -31,8 +31,8 @@ environment, it will also save a bar chart as
 `failure_category_analysis.png`. If not, the script still runs and
 simply skips the chart generation.
 
-As of the commit that introduced this script revision, the dataset
-contains **5** categories, **17** distinct failures, and **39**
-protocols documenting how to survive them. Future revisions may extend
-this taxonomy, but the script will continue to report the current
-counts from the JSON file.
+As of the current commit, the dataset
+contains **5** categories, **17** distinct failures, and **42**
+protocols (Protocols 1–42) documenting how to survive them. Future
+revisions may extend this taxonomy, but the script will continue to
+report the current counts from the JSON file.
