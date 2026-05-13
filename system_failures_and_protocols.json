@@ -75,6 +75,7 @@
     "29": "GUI Terminal Escape Protocol",
     "30": "Local Pre-Flight Validation Protocol",
     "31": "State Verification Protocol",
+    "32": "Address All Linter Warnings",
     "33": "Task Verification Protocol",
     "34": "Assume Stale State",
     "35": "Experiment Pre-Flight Checklist",
@@ -82,6 +83,8 @@
     "37": "Verify, Don't Assume",
     "38": "The Phoenix Protocol",
     "39": "Redundant Systems",
-    "40": "Escalate and Isolate"
+    "40": "Escalate and Isolate",
+    "41": "Verify Written Data",
+    "42": "Always Pull Before Push"
   }
 }
